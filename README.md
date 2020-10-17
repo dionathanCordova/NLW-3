@@ -37,7 +37,7 @@
 <hr> -->
 
 <p align="center">
-  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
+  <a href="#-projeto">Projeto</a> &#xa0; | &#xa0; 
   <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
@@ -48,9 +48,13 @@
 
 <br>
 
-## :dart: About ##
+## 💻 Projeto
 
-Describe your project
+O Happy é uma aplicação que conecta pessoas à casas de acolhimento institucional para fazer o dia de muitas crianças mais feliz 💜
+
+<!-- ## :dart: About ##
+
+Describe your project -->
 
 <!-- ## :sparkles: Features ##
 
@@ -68,10 +72,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Expo](https://expo.io/)
 - [TypeScript](https://www.typescriptlang.org/)
 
-## 💻 Projeto
-
-O Happy é uma aplicação que conecta pessoas à casas de acolhimento institucional para fazer o dia de muitas crianças mais feliz 💜
-
 ## 🔖 Layout
 
 Nos links abaixo você encontra o layout do projeto web e também do mobile. Lembrando que você precisa ter uma conta no [Figma](http://figma.com/) para acessá-lo.
@@ -79,26 +79,31 @@ Nos links abaixo você encontra o layout do projeto web e também do mobile. Lem
 - [Layout Web](https://www.figma.com/file/mDEbnoojksG4w8sOxmudh3/Happy-Web)
 - [Layout Mobile](https://www.figma.com/file/X27FfVxAgy9f5IFa7ONlph/Happy-Mobile)
 
-## :white_check_mark: Requirements ##
+<!-- ## :white_check_mark: Requirements ## -->
+<!-- Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed. -->
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
-
-## :checkered_flag: Starting ##
+## :checkered_flag: Rodando os projetos ##
 
 ```bash
-# Clone this project
+# Clone o repositório
 $ git clone https://github.com/dionathanCordova/nlw-3
 
-# Access
+# Acesse o diretorio
 $ cd nlw-3
 
-# Install dependencies
-$ yarn
+# Cada um dos diretórios possuem formas diferentes de inicialização
 
-# Run the project
-$ yarn start
+# Rodando o server
+$ yarn && yarn dev:server
+# PS por motivos de conexão entre dispositivo fisico e o server, o server esta com a base url com o IP LOCAL da rede,
+# ex : http://10.0.0.101:3333, altere este ip colocando o ip que representa o seu cenário.
 
-# The server will initialize in the <http://localhost:3000>
+# Rodando o web (ReactJs)
+$ yarn && yarn start
+
+# Rorando o mobile (React Native)
+$ yarn && yarn start # expo
+
 ```
 
 ## :memo: License ##
