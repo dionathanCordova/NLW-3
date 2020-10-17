@@ -58,15 +58,19 @@ Describe your project
 :heavy_check_mark: Feature 2;\
 :heavy_check_mark: Feature 3;
 
-## :rocket: Technologies ##
+## 🚀 Tecnologias
 
-The following tools were used in this project:
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [Expo](https://expo.io/)
 - [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
+- [React](https://reactjs.org)
+- [React Native](https://facebook.github.io/react-native/)
+- [Expo](https://expo.io/)
 - [TypeScript](https://www.typescriptlang.org/)
+
+## 💻 Projeto
+
+O Happy é uma aplicação que conecta pessoas à casas de acolhimento institucional para fazer o dia de muitas crianças mais feliz 💜
 
 ## :white_check_mark: Requirements ##
 
