@@ -1,9 +1,13 @@
-<div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="NLW 3" />
-
+<h1 align="center">
+    <img alt="Happy" title="Happy" src=".github/logo.svg" />
+</h1>
   &#xa0;
 
   <!-- <a href="https://nlw3.netlify.app">Demo</a> -->
+<p align="center">
+  <img alt="Happy" src=".github/happy.png" width="100%">
+</p>
+
 </div>
 
 <h1 align="center">NLW 3</h1>
